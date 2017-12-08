@@ -1,0 +1,16 @@
+Your identification has been saved in /Users/roy/.ssh/id_rsa.
+Your public key has been saved in /Users/roy/.ssh/id_rsa.pub.
+The key fingerprint is:
+SHA256:izErbofYgmn0XHZejUhjCk5uQ3xG7x5x7WPTpF5DF3c 1600010614@pku.edu.cn
+The key's randomart image is:
++---[RSA 2048]----+
+|                 |
+|     .         .E|
+|  . . .   .     +|
+|   = o * . . o . |
+|  = + B S + = .  |
+| . = + X + B +   |
+|.o+o=.* + o + .  |
+|o.o++..o   .     |
+|.  o..           |
++----[SHA256]-----+
