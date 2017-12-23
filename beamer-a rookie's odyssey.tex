@@ -1,5 +1,11 @@
 \documentclass{beamer}
 \usepackage[UTF8 ,noindent]{ctexcap}
+\usetheme{Berkeley}
+\usecolortheme{dolphin}
+\useinnertheme{circles}
+\useoutertheme{tree}
+\usefonttheme{professionalfonts}
+\usepackage{arev}
 \title[模型检验]{基于逆推算法和深度优先搜索的模型检验}
 \subtitle{数据结构大作业}
 \institute{北京大学数学科学学院}
@@ -7,13 +13,25 @@
 \date{\today}
 \subject{模型检验}
 \keywords{模型检验，迁移状态系统，线性时序逻辑，计算树逻辑}
-
+\AtBeginSection[]
+{
+    \begin{frame}{本届提要}
+        \tableofcontents[currentsection,hideallsubsections]
+    \end{frame}
+}
+\AtBeginSubsection[]
+{
+    \begin{frame}[shrink]
+        \tableofcontents[sectionstyle=show/shaded,subsectionstyle=show/shaded/hide]
+    \end{frame}
+}
 
 \begin{document}
 
 \begin{frame}
 	\titlepage
 \end{frame}
+
 
 \part{问题背景}
 \begin{frame}
@@ -25,6 +43,13 @@
 \end{frame}
 
 \section{dd}
+\begin{frame}
+	\onslide<1>{ds}
+	
+	\onslide<2->{sd}
+	
+	\onslide<1,3>{当时的}
+\end{frame}
 \section{d}
 \section{ddd}
 \begin{frame}{但是}{法国恢复}
