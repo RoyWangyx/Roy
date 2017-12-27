@@ -1,0 +1,237 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.8 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \sortlist[entry]{nty/global/}
+    \entry{chow2017algorithm}{article}{}
+      \name{author}{4}{}{%
+        {{hash=70eef6c14a70610679217c0a5125f04d}{%
+           family={Chow},
+           familyi={C\bibinitperiod},
+           given={Yat\bibnamedelima Tin},
+           giveni={Y\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{hash=adc6a583f7bae787de274ceada59d921}{%
+           family={Darbon},
+           familyi={D\bibinitperiod},
+           given={Jerome},
+           giveni={J\bibinitperiod}}}%
+        {{hash=d4ee7c8daf846ee1eddbbe56e4d658d9}{%
+           family={Osher},
+           familyi={O\bibinitperiod},
+           given={Stanley},
+           giveni={S\bibinitperiod}}}%
+        {{hash=283c439ffb0015e38107aa1c35da9a6b}{%
+           family={Yin},
+           familyi={Y\bibinitperiod},
+           given={Wotao},
+           giveni={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{69e120b115278d5ba697380fe039a662}
+      \strng{fullhash}{c197f74d3b65bd54293a6498002053f9}
+      \strng{authornamehash}{69e120b115278d5ba697380fe039a662}
+      \strng{authorfullhash}{c197f74d3b65bd54293a6498002053f9}
+      \field{sortinit}{C}
+      \field{sortinithash}{095692fd22cc3c74d7fe223d02314dbd}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{arXiv preprint arXiv:1704.02524}
+      \field{title}{Algorithm for Overcoming the Curse of Dimensionality for State-dependent Hamilton-Jacobi equations}
+      \field{year}{2017}
+    \endentry
+    \entry{chow2016algorithm}{report}{}
+      \name{author}{4}{}{%
+        {{hash=282e149856364dc51950ef4dcf9dfb8b}{%
+           family={Chow},
+           familyi={C\bibinitperiod},
+           given={Yat\bibnamedelima T},
+           giveni={Y\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{hash=af2e7292231cb1f764f5db6cd8059f20}{%
+           family={Darbon},
+           familyi={D\bibinitperiod},
+           given={Jérôme},
+           giveni={J\bibinitperiod}}}%
+        {{hash=d4ee7c8daf846ee1eddbbe56e4d658d9}{%
+           family={Osher},
+           familyi={O\bibinitperiod},
+           given={Stanley},
+           giveni={S\bibinitperiod}}}%
+        {{hash=283c439ffb0015e38107aa1c35da9a6b}{%
+           family={Yin},
+           familyi={Y\bibinitperiod},
+           given={Wotao},
+           giveni={W\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {University of California, Los Angeles Los Angeles United States}%
+      }
+      \strng{namehash}{3d9c57b80ae3107a896287491d96e5a4}
+      \strng{fullhash}{b5a5ee2eff324f2abe7a6d48302eaf1b}
+      \strng{authornamehash}{3d9c57b80ae3107a896287491d96e5a4}
+      \strng{authorfullhash}{b5a5ee2eff324f2abe7a6d48302eaf1b}
+      \field{sortinit}{C}
+      \field{sortinithash}{095692fd22cc3c74d7fe223d02314dbd}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Algorithm for Overcoming the Curse of Dimensionality for Certain Non-convex Hamilton-Jacobi Equations, Projections and Differential Games}
+      \field{type}{techreport}
+      \field{year}{2016}
+      \keyw{aaa}
+    \endentry
+    \entry{evans2005introduction}{book}{}
+      \name{author}{1}{}{%
+        {{hash=4b9579f8f006e65d72315138477bb824}{%
+           family={Evans},
+           familyi={E\bibinitperiod},
+           given={Lawrence\bibnamedelima C},
+           giveni={L\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Lecture Notes, University of California, Department of Mathematics, Berkeley}%
+      }
+      \strng{namehash}{4b9579f8f006e65d72315138477bb824}
+      \strng{fullhash}{4b9579f8f006e65d72315138477bb824}
+      \strng{authornamehash}{4b9579f8f006e65d72315138477bb824}
+      \strng{authorfullhash}{4b9579f8f006e65d72315138477bb824}
+      \field{sortinit}{E}
+      \field{sortinithash}{07bbd5a529b5beaa311df5be05b874bc}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{An introduction to mathematical optimal control theory}
+      \field{year}{2005}
+    \endentry
+    \entry{evans}{book}{}
+      \name{author}{1}{}{%
+        {{hash=7fce379303aa58a29cf163529079b608}{%
+           family={Evans},
+           familyi={E\bibinitperiod},
+           given={Lawrence\bibnamedelima C.},
+           giveni={L\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Providence, R.I.}%
+      }
+      \list{publisher}{1}{%
+        {American Mathematical Society}%
+      }
+      \strng{namehash}{7fce379303aa58a29cf163529079b608}
+      \strng{fullhash}{7fce379303aa58a29cf163529079b608}
+      \strng{authornamehash}{7fce379303aa58a29cf163529079b608}
+      \strng{authorfullhash}{7fce379303aa58a29cf163529079b608}
+      \field{sortinit}{E}
+      \field{sortinithash}{07bbd5a529b5beaa311df5be05b874bc}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{"This is the second edition of the now definitive text on partial differential equations (PDE). It offers a comprehensive survey of modern techniques in the theoretical study of PDE with particular emphasis on nonlinear equations. Its wide scope and clear exposition make it a great text for a graduate course in PDE. For this edition, the author has made numerous changes, including: a new chapter on nonlinear wave equations, more than 80 new exercises, several new sections, and a significantly expanded bibliography."--Publisher's description.}
+      \field{title}{Partial differential equations}
+      \field{year}{2010}
+      \keyw{partial.differential.equations pde textbook}
+    \endentry
+    \entry{li2017maximum}{article}{}
+      \name{author}{4}{}{%
+        {{hash=64fe62ce2b10a4bc8ffec9881ed87985}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Qianxiao},
+           giveni={Q\bibinitperiod}}}%
+        {{hash=2b01d303567b99056235e81bd74fd50e}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Long},
+           giveni={L\bibinitperiod}}}%
+        {{hash=f6d5538a2db58ca22e371cdbeef3f83e}{%
+           family={Tai},
+           familyi={T\bibinitperiod},
+           given={Cheng},
+           giveni={C\bibinitperiod}}}%
+        {{hash=ad9b5a5233ad3fde6760b628545ddbc5}{%
+           family={Weinan},
+           familyi={W\bibinitperiod},
+           given={E},
+           giveni={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{5fff277ce16d4b261fe33fafda79c044}
+      \strng{fullhash}{e90bba9e3df8e808cb639cfaf75e7960}
+      \strng{authornamehash}{5fff277ce16d4b261fe33fafda79c044}
+      \strng{authorfullhash}{e90bba9e3df8e808cb639cfaf75e7960}
+      \field{sortinit}{L}
+      \field{sortinithash}{7bba64db83423e3c29ad597f3b682cf3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{arXiv preprint arXiv:1710.09513}
+      \field{title}{Maximum Principle Based Algorithms for Deep Learning}
+      \field{year}{2017}
+    \endentry
+    \entry{rublev2000generalized}{article}{}
+      \name{author}{1}{}{%
+        {{hash=8fc89b97d0fdd447d7a236193a646af2}{%
+           family={Rublev},
+           familyi={R\bibinitperiod},
+           given={IV},
+           giveni={I\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{8fc89b97d0fdd447d7a236193a646af2}
+      \strng{fullhash}{8fc89b97d0fdd447d7a236193a646af2}
+      \strng{authornamehash}{8fc89b97d0fdd447d7a236193a646af2}
+      \strng{authorfullhash}{8fc89b97d0fdd447d7a236193a646af2}
+      \field{sortinit}{R}
+      \field{sortinithash}{c15bc8eb6936bc6b3c8baa9e8575af53}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Computational Mathematics and Modeling}
+      \field{number}{4}
+      \field{title}{Generalized Hopf formulas for the nonautonomous Hamilton--Jacobi equation}
+      \field{volume}{11}
+      \field{year}{2000}
+      \field{pages}{391\bibrangedash 400}
+      \range{pages}{10}
+    \endentry
+    \entry{weinan2017proposal}{article}{}
+      \name{author}{1}{}{%
+        {{hash=ad9b5a5233ad3fde6760b628545ddbc5}{%
+           family={Weinan},
+           familyi={W\bibinitperiod},
+           given={E},
+           giveni={E\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{ad9b5a5233ad3fde6760b628545ddbc5}
+      \strng{fullhash}{ad9b5a5233ad3fde6760b628545ddbc5}
+      \strng{authornamehash}{ad9b5a5233ad3fde6760b628545ddbc5}
+      \strng{authorfullhash}{ad9b5a5233ad3fde6760b628545ddbc5}
+      \field{sortinit}{W}
+      \field{sortinithash}{6d25b3eefe5aa2147d1f339686808918}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Communications in Mathematics and Statistics}
+      \field{number}{1}
+      \field{title}{A Proposal on Machine Learning via Dynamical Systems}
+      \field{volume}{5}
+      \field{year}{2017}
+      \field{pages}{1\bibrangedash 11}
+      \range{pages}{11}
+    \endentry
+  \endsortlist
+\endrefsection
+\endinput
+
