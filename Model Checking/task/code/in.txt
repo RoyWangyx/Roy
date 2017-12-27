@@ -1,0 +1,20 @@
+idle paid
+idle
+coin idle paid
+coffee paid idle
+
+CTL:A(!(paid))U(paid)
+CTL:E(!(idle))U(paid)
+CTL:(A(!(paid))U(paid))V(E(!(idle))U(paid))
+LTL:(false)W(true)
+LTL:D(false)
+LTL:S(false)
+LTL:S(true)
+LTL:(true)U(false)
+LTL:(idle)W(paid)
+LTL:S((idle)U(paid))
+LTL:D(S(idle))
+LTL:(idle)U(paid)
+LTL:idle
+LTL:!(idle)
+LTL:paid
