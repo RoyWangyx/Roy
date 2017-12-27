@@ -16,7 +16,8 @@
 *.toc
 *.vrb
 *.thm
-
+*.bbl
+*.blg
 # Other temporary files
 *.log
 nppBackup/
