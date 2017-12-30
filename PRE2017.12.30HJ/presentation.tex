@@ -149,7 +149,7 @@ Note that $v(x,T)=g(x)$.
 \begin{Thm}[Optimality Conditions]
 For each $h>0$ $s.t$ $t+h\leq T$, we have
 \begin{equation}
-v(x, t)=\inf_{\alpha(\cdot) \in \mathcal{A}}{ \{ \int_{t}^{t+h}r(x(s), \alpha(s))ds +v(x(t+h), t+h)\}} 
+v(x, t)=\sup_{\alpha(\cdot) \in \mathcal{A}}{ \{ \int_{t}^{t+h}r(x(s), \alpha(s))ds +v(x(t+h), t+h)\}} 
 \end{equation} 
 where $x(\cdot)$ solves the ODE for the control $\alpha(\cdot)$.
 \end{Thm}
@@ -173,7 +173,7 @@ Now we discuss how to solve the optimal control problem using the idea of dynami
 \item Firstly we solve the Hamilton-Jacobi-Bellman equation to compute value function $v$.
 \item Then we use the value function to design $\alpha$ at each point, according to $\alpha(x,t)=a$, for the maximum in Hamiltonian to be attained.
 \item Next we solve the control system of ODE, now that $\alpha$ can be expressed as a function of $x$ and $t$.
-\item Finally we define the feed back control $\alpha(t) \coloneqq \alpha(x(t),t)$.
+\item Finally we define the feedback control $\alpha(t) \coloneqq \alpha(x(t),t)$.
 \end{enumerate}
 \end{frame}
 \begin{frame}{Pontryagin Maximum Principle}{Statement of the Theorem}
@@ -210,7 +210,7 @@ Now we discuss how to solve the optimal control problem using the Pontryagin Max
 \begin{frame}{Miscellaneous Complements} 
 \begin{enumerate}[<+->]
 \item We can utilize dynamic programming method to derive Hamilton-Jacobi equations for solving differential games.
-\item Without assuming value function $\in C^1$, we still have that $v$ is the unique viscosity solution to our Hamilton-Jacobi-Bellman Equation, provided that $g$,$r$,$f$ are bounded and Lipschitz continuous. In this way, we can formally obtain our value function by solving the PDE, since viscosity solution is unique.
+\item Without assuming value function $\in C^1$, we still have that $v$ is the unique viscosity solution to our Hamilton-Jacobi-Bellman Equation, provided that $g$, $r$, $f$ are bounded and Lipschitz continuous. In this way, we can formally obtain our value function by solving the PDE, since viscosity solution is unique.
 \end{enumerate}
 \end{frame}
 \section{Hopf-Lax Type Formula}
@@ -253,7 +253,7 @@ For a function \begin{math} f :  \mathbb{R}^{d} \to \mathbb{R} \cup \{ \infty \}
 \end{equation}
 $f^{*}$ is also called the Legendre-Fenchel transformation of $f$.
 \end{exampleblock}
-If $L$ is convex, and $\lim_{|v| \to \infty}\frac{L(v)}{|v|}=+\infty$, then for $H=L^*$, $H$ is convex, and $\lim_{|p| \to \infty}\frac{H(p)}{|p|}=+\infty$. Moreover, $L=H^*$.
+If $L$ is convex, and $\lim_{|v| \to \infty}\frac{L(v)}{|v|}=+\infty$. Then for $H=L^*$, $H$ is convex, and $\lim_{|p| \to \infty}\frac{H(p)}{|p|}=+\infty$. Moreover, $L=H^*$.
 	\end{frame}
 	\begin{frame}{Legendre Transform}{For Hamiltonian}
 	Suppose now Hamiltonian $H=H(Du)$, the mapping $H$ is convex, and $\lim_{|p| \to \infty}\frac{H(p)}{|p|}=+\infty$. $L=H^*$.
